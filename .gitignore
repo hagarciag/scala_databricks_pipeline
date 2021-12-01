@@ -1,0 +1,168 @@
+alvin alexander    
+
+ 
+2021 cookbook
+The Scala Cookbook, by Alvin Alexander
+   #1 new release!
+Ko-fi donationsBuy Alvin A Coffee
+A sample .gitignore file for Scala/SBT projects
+By Alvin Alexander. Last updated: July 22, 2021
+This is a sample .gitignore file that I use for Scala SBT projects:
+
+# bloop and metals
+.bloop
+.bsp
+
+# metals
+project/metals.sbt
+.metals
+
+# vs code
+.vscode
+
+# scala 3
+.tasty
+
+# sbt
+project/project/
+project/target/
+target/
+
+# eclipse
+build/
+.classpath
+.project
+.settings
+.worksheet
+bin/
+.cache
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# mac
+.DS_Store
+
+# other?
+.history
+.scala_dependencies
+.cache-main
+
+#general
+*.class
+
+ 
+I’ll update this file over time, but for now I just want to put an example gitignore file out here so I don’t have to try to remember which gitignore file I created last.
+
+One final note: Some of those files/directories are unique to SBT, some are for IntelliJ IDEA, others are for Scala/Eclipse, and .DS_Store is Mac-specific. Use whatever you want/need.
+
+Some of this is counter to recommendations, so buyer beware. More info:
+
+IntelliJ/JetBrains suggestions
+A SO page
+An SBT reference page
+... this post is sponsored by my books ...
+The Scala Cookbook, by Alvin Alexander
+#1 New Release!	Functional Programming, Simplified, by Alvin Alexander
+FP Best Seller
+using an ad blocker?
+just a $2 donation at ko-fi.com helps keep this site running
+
+scala
+ eclipse intellij mac osx gitignore scala sbt macos intellij idea .gitignore
+
+ 
+IntelliJ IDEA: Keystrokes I commonly use on MacOS (OS X)
+MacOS “LSOpenURLsWithRole() failed with error”
+How to install Java, Scala, and SBT on Linux Mint
+Scala advanced language features
+JetBrains Scala developer survey
+books i’ve written
+Scala Cookbook	How I Sold My Business	A Survival Guide for New Consultants	Functional Programming, Simplified
+“Keep inventing, and don’t despair when at first the idea looks crazy”
+Example SQL queries: distinct, joins, group by, order by, count, and sorting
+Almost Everything I Know About Writing
+Home sleep study: example, results, information
+There are two kinds of people in Alaska
+
+ 
+This website uses cookies: learn more
+
+alvinalexander.com is owned and operated by Valley Programming, LLC
+
+In regards to links to Amazon.com, “As an Amazon Associate
+I (Valley Programming, LLC) earn from qualifying purchases”
+ 
+ 
+java
+java tutorials
+android tutorials
+java applets
+java faqs
+java source code
+intellij idea
+eclipse ide
+jdbc
+jsp’s
+java servlets
+jfc-swing
+kotlin
+perl
+perl tutorials
+perl faqs
+perl recipes
+perl tutorials
+unix
+linux tutorials
+unix by example
+tutorials
+man (help) pages
+programming
+scala tutorials
+drupal
+flutter/dart
+git
+haskell
+oop
+php
+mysql
+postgresql
+ruby
+sencha
+best practices
+programming
+software dev
+testing
+uml
+misc
+privacy policy
+terms & conditions
+apple/mac/iphone
+career
+design
+funny/humor
+function point
+analysis (fpa)
+fpa tutorial
+gadgets
+technology
+latex
+alaska
+colorado
+cvs tutorials
+wincvs tutorial
+other
+contact me
+rss feed
+my photos
+inspirational quotes
+investing
+'personal' posts
+science
+zen, mindfulness
+life in alaska
+living in talkeetna, alaska
